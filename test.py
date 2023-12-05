@@ -17,3 +17,11 @@ def fact(n):
         a.append(pr)
     return a
 print(fact(10))
+ # test_задачка таже что с верху но с помощью генератора.
+def fact(n):
+    pr = 1
+    for i in range(1, n+1):
+        pr = pr*i
+        yield pr
+for i in fact(10):
+    print(i, end=", ")
