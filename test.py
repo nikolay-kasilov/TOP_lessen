@@ -17,7 +17,7 @@ def fact(n):
         a.append(pr)
     return a
 print(fact(10))
-     # test_задачка таже что с верху но с помощью генератора.
+     # test_Z   ЗАДАЧА ТА ЖЕ С ПОМОЩЬЮ ГЕНЕРАТОРА
 def fact(n):
     pr = 1
     for i in range(1, n+1):
@@ -28,7 +28,7 @@ for i in fact(10):
 
 
 
- #            test_Z  < ЯВЛЯЕТСЯ ЛИ ЧИСЛО ПРОСТЫМ>
+ #            test_Z  < ЯВЛЯЕТСЯ ЛИ ЧИСЛО ПРОСТЫМ> вар 1
 
 a = int(input('Введите число:\n'))
 k =0
@@ -40,3 +40,17 @@ if k == 2:
 else:
     print('Число не простое')
 
+ #            test_Z  < ЯВЛЯЕТСЯ ЛИ ЧИСЛО ПРОСТЫМ> вар 2
+
+a = int(input('Введите число:\n'))
+k = 0
+delit =[]
+for i in range(1, a + 1):
+    if a % i == 0:
+        k += 1
+        delit.append(i)
+if k == 2:
+    print(' Число простое')
+else:
+    print('Число не простое')
+    print('Список чисел на которые можно поделить:',delit)
