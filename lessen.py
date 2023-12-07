@@ -1,3 +1,4 @@
+
 # ЗАДАЧИ С ЗАНЯТИЙ 6.12.2023  ,тема : FastApi
 import json
 
@@ -36,3 +37,6 @@ async def post_root(r: Request):
         }
     )
     return {'сообщение': 'ок!'}
+
+
+
