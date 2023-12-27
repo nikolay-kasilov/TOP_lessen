@@ -110,3 +110,5 @@ while   sum >0:
     sum1 +=  sum % 10
     sum//= 10
 print(sum1)
+
+import
