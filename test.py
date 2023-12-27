@@ -110,10 +110,9 @@ while   sum >0:
     sum1 +=  sum % 10
     sum//= 10
 print(sum1)
-<<<<<<< HEAD
 
-import
-=======
+
+
 def calculator(a, b):
     
     try:
@@ -121,4 +120,4 @@ def calculator(a, b):
     except ZeroDivisionError as e:
         print(f'Ошибка! Делить на ноль нельзя')
 print(calculator(int(input('Первое число: ')), int(input('Второе число: '))))
->>>>>>> db1726f2619b2b87e2a746f3bbfb6c63a19c3ce0
+

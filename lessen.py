@@ -40,3 +40,4 @@ async def post_root(r: Request):
 
 
 
+              # ЗАДАЧИ С ЗАНЯТИЙ 27.12.2023
